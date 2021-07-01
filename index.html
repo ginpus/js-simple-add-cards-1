@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 JS - uzduotis</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive stiliaus failai visada zemiau stiliaus -->
+    <link rel="stylesheet" href="desktopFirst.css">
+</head>
+
+<body>
+
+    <h1>Profiliai</h1>
+    <div class="container" style="width:90vw">
+        <form role="form">
+            <div class="row top-buffer justify-content-center align-items-end">
+                <div class="col-sm-2">
+                    <label for="inputLabel3" class="col-sm-2 control-label vardas">Vardas</label>
+                    <div class="col-sm-12">
+                        <input type="text" class="form-control" id="vardas" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <label for="inputname" class="col-sm-2 control-label pavarde">Pavardė</label>
+                    <div class="col-sm-12 ">
+                        <input type="text" class="form-control" id="pavarde" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <label for="inputPassword" class="col-sm-2   control-label amzius">Amžius</label>
+                    <div class="col-sm-12">
+                        <input type="number" class="form-control" id="amzius" placeholder="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <label for="inputPassword" class="col-sm-2   control-label lytis">Lytis</label>
+                    <select class="form-control col-sm-12" id="lytis">
+                        <option value="" selected>Pasirinkite Lytį</option>
+                        <option value="Vyras">Vyras</option>
+                        <option value="Moteris">Moteris</option>
+                        <option value="Kita">Kita</option>
+                    </select>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-primary prideti">Pridėti</button>
+                </div>
+            </div>
+    </div>
+    <p class="klaida"></p>
+    <p class="test"></p>
+    <div class="kortos">
+        <!-- <div class="col-3 mb-4">
+            <div class="card" style="width: 100%;">
+                <div class="card-body">
+                    <h5 class="card-title">Vardenis Pavardenis</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Amžius: </li>
+                    <li class="list-group-item">Lytis: </li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn btn-danger delete">Trinti</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

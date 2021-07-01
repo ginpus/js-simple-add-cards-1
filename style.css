@@ -1,0 +1,29 @@
+body {
+    padding: 20px;
+}
+
+.klaida {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+.prideti {
+    padding: 0px 30px;
+    margin: 2px auto;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 1170px;
+}
+
+.kortos {
+    display: flex;
+    flex-wrap: wrap;
+}
